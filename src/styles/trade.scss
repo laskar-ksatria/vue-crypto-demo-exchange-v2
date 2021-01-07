@@ -1,0 +1,250 @@
+.nw-trade {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &-dropdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-menu {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .dropdown-toggle {
+            width: 100%;
+            background-color: #29ABE2;
+            color: #FFFFFF;    
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}
+
+.nw-tabs-trade {
+    display: flex;
+    justify-content: flex-end;
+
+    &-tablist {
+        a {
+            display: flex;
+            border: 1px solid #DFDFDF;
+            width: 30px;
+            height: 25px;
+            margin-right: 5px;
+    
+            img {
+                width: 100%;
+            }
+
+            &:hover {
+                border: 1px solid #C5C5C5;
+            }
+
+            &:focus {
+                border: 1px solid #C5C5C5;
+            }
+        }
+
+        &-table {
+            font-size: 11px;
+
+            &-scroll {
+                width: 100%;
+                height: 120px;
+                overflow-x: auto;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1; 
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #29ABE2; 
+                    border-radius: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #177CA9; 
+                }
+            }
+
+            &-scrollsecond {
+                width: 100%;
+                height: 253px;
+                overflow-x: auto;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1; 
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #29ABE2; 
+                    border-radius: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #177CA9; 
+                }
+            }
+
+            &-scrollthird {
+                width: 100%;
+                height: 294px;
+                overflow-x: auto;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1; 
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #29ABE2; 
+                    border-radius: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #177CA9; 
+                }
+            }
+
+            &-scrollbottom {
+                width: 100%;
+                height: 213px;
+                overflow-x: auto;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1; 
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #29ABE2; 
+                    border-radius: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #177CA9; 
+                }
+            }
+
+            .table {
+                th {
+                    border-top: 0;
+                    padding: 7px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                }
+
+                td {
+                    border-top: 0;
+                    padding: 7px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                }
+            }
+
+            &-specialtr {
+                background-color: #DEDEDE;
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    i {
+                        font-size: 30px;
+                        margin-right: 5px;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+    }
+    }
+}
+
+.nw-table-bottom {
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+
+    .table {
+        th {
+            border-top: 0;
+            border-bottom: 1px solid #dee2e6;
+            padding: 7px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        td {
+            border-top: 0;
+            padding: 7px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+    }
+}
+
+.nw-border-bottom-pills {
+    font-size: 13px;
+
+    &:after {
+        content: " ";
+        border-bottom: 4px solid #CCC;
+        width: 100%;
+        position: relative;
+        top: -4px;
+    }
+
+    li {
+        a {
+            width: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px !important;
+        }
+    }
+
+    .active {
+        border-bottom: 4px solid #29ABE2 !important;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.nw-trade-form {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.nw-btn-trade {
+    // background-color: #;
+}

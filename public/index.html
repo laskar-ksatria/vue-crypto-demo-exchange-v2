@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="icon" href="<%= BASE_URL %>tesseract.png">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer>
+    </script>
+
+     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Dosis:300,400,500,,600,700,700i|Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+      <!-- Favicons -->
+    <!-- <link href="<%= BASE_URL %>assets/img/favicon.png" rel="icon"> -->
+    <link href="<%= BASE_URL %>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Vendor CSS Files -->
+    <link href="<%= BASE_URL %>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<%= BASE_URL %>assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="<%= BASE_URL %>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="<%= BASE_URL %>assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="<%= BASE_URL %>assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+    <link href="<%= BASE_URL %>assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="<%= BASE_URL %>assets/css/style.css" rel="stylesheet">
+    <!-- AdminLTE -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.css" type="text/css" media="screen"/> -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+      <!-- Tempusdominus Bbootstrap 4 -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+      <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+      <!-- Daterange picker -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/plugins/daterangepicker/daterangepicker.css">
+      <!-- summernote -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/plugins/summernote/summernote-bs4.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>static/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <!-- JQVMap -->
+    <!-- <link rel="stylesheet" href="./static/plugins/jqvmap/jqvmap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/jqvmap.min.css" integrity="sha512-RPxGl20NcAUAq1+Tfj8VjurpvkZaep2DeCgOfQ6afXSEgcvrLE6XxDG2aacvwjdyheM/bkwaLVc7kk82+mafkQ==" crossorigin="anonymous" /> -->
+    
+
+    <!-- AdminLTE -->
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <!-- Vendor JS Files -->
+  <script src="<%= BASE_URL %>assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/php-email-form/validate.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/counterup/counterup.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<%= BASE_URL %>assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="<%= BASE_URL %>assets/js/main.js"></script>
+
+  <!-- adminLTE--------------------------------------------------------------------------------- -->
+  <script src="<%= BASE_URL %>static/plugins/jquery-ui/jquery-ui.min.js"></script>
+   <!-- jQuery -->
+   <!-- <script src="<%= BASE_URL %>static/plugins/jquery/jquery.min.js"></script> -->
+   <!-- Bootstrap 4 -->
+   <script src="<%= BASE_URL %>static/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- AdminLTE App -->
+   <script src="<%= BASE_URL %>static/js/adminlte.min.js"></script>
+   <!-- AdminLTE for demo purposes -->
+   <script src="<%= BASE_URL %>static/js/demo.js"></script>
+   <!-- ChartJS -->
+   <script src="<%= BASE_URL %>static/plugins/chart.js/Chart.min.js"></script>
+   <!-- Sparkline -->
+   <script src="<%= BASE_URL %>static/plugins/sparklines/sparkline.js"></script>
+   <!-- JQVMap -->
+   <script src="<%= BASE_URL %>static/plugins/jqvmap/jquery.vmap.min.js"></script>
+   <script src="<%= BASE_URL %>static/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+   <!-- jQuery Knob Chart -->
+   <script src="<%= BASE_URL %>static/plugins/jquery-knob/jquery.knob.min.js"></script>
+   <!-- daterangepicker -->
+   <script src="<%= BASE_URL %>static/plugins/moment/moment.min.js"></script>
+   <script src="<%= BASE_URL %>static/plugins/daterangepicker/daterangepicker.js"></script>
+   <!-- Tempusdominus Bootstrap 4 -->
+   <script src="<%= BASE_URL %>static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+   <!-- Summernote -->
+   <script src="<%= BASE_URL %>static/plugins/summernote/summernote-bs4.min.js"></script>
+   <!-- overlayScrollbars -->
+   <script src="<%= BASE_URL %>static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+   <!-- jQuery Mapael -->
+  <script src="<%= BASE_URL %>static/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+  <script src="<%= BASE_URL %>static/plugins/raphael/raphael.min.js"></script>
+  <script src="<%= BASE_URL %>static/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+  <script src="<%= BASE_URL %>static/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+
+  <!-- PAGE SCRIPTS -->
+  <script src="<%= BASE_URL %>static/js/pages/dashboard2.js"></script>
+  <!-- OPTIONAL SCRIPTS -->
+  <script src="<%= BASE_URL %>static/js/demo.js"></script>  
+  <!-- adminLTE------------------------------------------------------------------------------------ -->
+  <script src="/charting_library/charting_library.min.js"></script>
+  </body>
+</html>
